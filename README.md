@@ -6,14 +6,14 @@ Here's a high level overview of tools, languages, frameworks and platforms I'm c
 
 Operating Systems and daily drivers:
 * Ubuntu cloud -- most comfortable one
-* Fedora, RHEL, RHCOS -- when working with Openshift, super secure, super annoying to configure Selinux
+* Fedora, RHEL, RHCOS -- when working with Openshift
 * Alpine -- base container image
 * Arch -- old personal laptop, efficient use of hardware
 * Windows + WSL2 -- current daily driver; good for programming (Linux shell) without losing Windows features (company compliance...)
 
 Platforms:
 * Openstack -- interaction via API, provision Tenants
-* Kubernetes -- deployment from scratch; favorite distro is k3s, using Kubeadmin and Rancher for work projects
+* Kubernetes -- deployment from scratch; favorite distro is k3s, using Kubeadm and Rancher for work projects
 * Openshift 4 -- deployment from scratch (UPI), had to leran it for a work project, prefer vanilla Kubernetes
 * AWS
 * OCP
