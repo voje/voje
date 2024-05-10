@@ -11,20 +11,23 @@ Operating Systems and daily drivers:
 * Arch -- old personal laptop, efficient use of hardware
 * Windows + WSL2 -- current daily driver; good for programming (Linux shell) without losing Windows features (company compliance...)
 
-Platforms:
-* Openstack -- interaction via API, provision Tenants
+Cloud platforms:
+* OpenStack -- tenant admin (networks, storage, routers, ...)
+* vSphere -- deploying VMs
+* AWS -- deploying VMs
+* OCI -- deploying VMs, some networking
+
+Container platforms:
 * Kubernetes -- deployment from scratch; favorite distro is k3s, using Kubeadm and Rancher for work projects
-* Openshift 4 -- deployment from scratch (UPI), had to leran it for a work project, prefer vanilla Kubernetes
-* AWS
-* OCP
+* OpenShift 4 -- deployment from scratch (UPI), had to leran it for a work project, prefer vanilla Kubernetes
 
 Tools:
-* Terraform -- deploying VMs on cloud environments (Openstack, vSphere)
-* Ansible -- provisioning remote (Linux) systems
-* Helm -- deploying apps on K8s
+* Helm -- go-to tool for deploying apps on k8s
+* Terraform -- go-to tool for interacting with any cloud
+* Ansible -- go-to tool for provisioning (Linux) servers
 
-Programming languages (proficiency/daily usage):
-* Golang -- backend services, perfect for writing REST APIs (OpenAPI documentation)
+Programming languages (profficient - daily usage):
+* Golang -- backend services, REST APIs, cli tools
 * bash -- automation, scripting
 * Python -- automation when bash gets too verbose; string manipulation with Jinja2; data manipulation with Pandas; general purpose get-stuff-done-quickly language
 
@@ -32,11 +35,11 @@ Other programming languages (pp - personal projects, uni - university, pro - pro
 * Rust -- pp, staying in programming shape
 * Kotlin -- pp, Android Studio app
 * Elixir -- pp, web scraping
-* Haskell -- pp. curiosity, learning functional languages
+* Haskell -- pp. Advent of Code
 * C++ -- uni, pp, OpenCV, QT
 * Java -- uni
-* C -- uni
+* C -- pro, fixing bugs on old telco apps
 * JavaScript -- I like to use TypeScript wherever possible
-  * Vue framework -- pro, dashboards for backend systems
+  * Vue framework -- pro, internal dashboards
   * React framework -- pp
   * Electron -- pp
